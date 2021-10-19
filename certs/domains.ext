@@ -1,0 +1,14 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+DNS.2 = 127.0.0
+DNS.3 = acq.lc
+DNS.4 = *.lc
+DNS.5 = *.acq.lc
+DNS.6 = *.*.acq.lc
+DNS.7 = *.*.*.acq.lc
+DNS.8 = *.*.lc
+DNS.9 = *.*.*.lc
